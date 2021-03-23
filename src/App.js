@@ -1,7 +1,8 @@
-import "./App.css";
-import { useState } from "react";
+import './App.css';
+import { useState } from 'react';
 
 function App() {
+  const hello = 'hello';
   const [temperatureValue, setTemperatureValue] = useState(10);
   return (
     <div className="app-container">
